@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+/*HEADER*/
+#body-header{
+    height: 65vh;
+    background-image: url("resumeassets/macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+/*horizontal list*/
+    .horizontal-list{
+        margin: 0px;
+        list-style: none;
+        padding-left: 0px;
+    }
+        .horizontal-list li{
+            display: inline-block;
+            margin: 0px 8px 8px 0px;
+        }
+        .horizontal-list a{
+            color: white;
+            text-decoration: none;
+        }
+        .nav-menu{
+            transition: color 0.5s;  /*will add a slight delay in transition of color property*/
+        }
+        .nav-menu a:hover{
+            text-decoration: underline;
+            color: whitesmoke;
+        }
+
+    #name-social-container {
+        margin-top: 20vh;
+    }
+        #my-name {
+            font-size: 3rem;
+            letter-spacing: 0.1rem;
+            color: white;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .social-icons li a i {
+            /*color: red;*/
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 50%;
+        }
+        .social-icons li a i:hover {
+            box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+        }
+
+/*MAIN*/
+    /*about*/
+    #about {
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+        #my-image {
+            height: 12rem;
+            width: 12rem;
+            margin: auto;
+            margin-top: -17vh;
+        }
+        #my-image img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 1px 1px 10px 2px lightgrey;
+        }
+        #about-para {
+            padding: 10px;
+            width: 70%;
+            text-align: justify;
+            color: grey;
+            line-height: 28px;
+            font-size: 1.1rem;
+            margin: auto;
+        }
+        .text-highlight {
+            color: #2857a4;
+            font-weight: 600;
+        }
+    /*skills*/
+    /*experience*/
+    /*education*/
+    /*portfolio*/
+    /*contact*/
+
